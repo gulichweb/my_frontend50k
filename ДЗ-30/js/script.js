@@ -181,7 +181,7 @@
 
 // 2)  min a,b
 
-// var a = 1, b = 3;
-// var z = Math.min(a, b);
+var a = 1, b = 3;
+var z = Math.min(a, b);
 
-// alert(z);
+alert(z);
