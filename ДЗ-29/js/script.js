@@ -130,18 +130,27 @@
 //     elements[i].addEventListener('click', myFunction, false);
 // }
 
+// описание
 
-var elements = document.getElementsByClassName("tool_tip");
+// var elements = document.getElementsByClassName("tool_tip");
 
-var myFunction = function() {
-    var attribute = this.parentNode.parentNode.parentNode.parentNode.getElementsByClassName("reviews");
-    alert(attribute[0].innerText);
-};
+// var myFunction = function() {
+//     var attribute = this.parentNode.parentNode.parentNode.parentNode.getElementsByClassName("reviews");
+//     alert(attribute[0].innerText);
+// };
 
-for (var i = 0; i < elements.length; i++) {
-    elements[i].addEventListener('click', myFunction, false);
-}
+// for (var i = 0; i < elements.length; i++) {
+//     elements[i].addEventListener('click', myFunction, false);
+// }
 
+//Пример просто
 
+// function BigUser() {
 
+//     this.name = "John";
+  
+//     return { name: "Godzilla" };  // <-- возвращает этот объект
+//   }
+  
+//   alert( new BigUser().name );  // Godzilla, получили этот объект
 
