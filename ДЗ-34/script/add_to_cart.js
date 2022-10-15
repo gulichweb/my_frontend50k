@@ -113,6 +113,7 @@ console.log(object);
 // let str = ("first",  "second" ,  "third");
 
 // console.log( str.split([""]));
+
 let str = ("first" +  "second" +  "third");
 console.log( str.split([""]));
 
