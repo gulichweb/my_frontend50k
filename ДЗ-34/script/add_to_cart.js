@@ -1,6 +1,6 @@
 
 // /*заголовок*/ 
-
+'use strict';
 // let title = document.getElementsByClassName("title");
 // console.log(title[1].innerText);
 
@@ -91,6 +91,38 @@
     my_info[i].addEventListener('click', myFunction, false);
 
  }; 
-                 
-                 
+          
  
+ // ДЗ 34
+
+ let object = {0: 'first', 1: 'second', 2: 'third', length: 3}
+ console.log( object ); 
+ let array = [];
+ 
+ for (var i = 0; i < object.length; i++) {
+    array.push(object[i]);
+    console.log( object[i] ); 
+ }
+ 
+ console.log( array );
+console.log(object); 
+
+
+
+
+// let str = ("first",  "second" ,  "third");
+
+// console.log( str.split([""]));
+let str = ("first" +  "second" +  "third");
+console.log( str.split([""]));
+
+
+
+
+
+
+
+
+
+
+

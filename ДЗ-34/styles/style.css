@@ -334,6 +334,10 @@
 
 
     }
+    
+    .my_card .dropdown_menu li{
+        margin-left: 25px;
+    }
 
 
     .my_card .dropdown_menu p {
@@ -370,6 +374,7 @@
 
     .my_card del {
         color: #bbb9be;
+        margin-left: 8px;
     }
 
     .total .check_out span {
