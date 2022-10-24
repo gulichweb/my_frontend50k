@@ -1,0 +1,647 @@
+    /* Обращение бывают след типов 
+            1) теги
+        + 2) класс
+            3) id
+            4) атрибуты */
+
+
+
+    * {
+        box-sizing: border-box;
+        /*Что это?  отвечает за подсчета нашего блока а ширина завсит от самого блока а не от*/
+    }
+
+
+    .body,
+    p {
+        /* убираем  базовые настройки и у body не будет отстпупа*/
+        margin: 0;
+    }
+
+
+
+
+
+    /*Базовые настройки страницы*/
+    /*    *- означает обращение ко всем элементам сайта*/
+
+
+    /*Конец базовых настроек*/
+
+
+
+    /*универсальные стили*/
+
+    /* , - Это означает дополнительные обращение к тому или иному элементу,
+            Это перечислениий подключение новых classs' ов*/
+
+
+    .left,
+    .ul_li>li {
+        float: left;
+        /* > обращение только к родительскому элементу*/
+        /*float оптекание. то есть выравнивание
+        Выровниваине: куда
+        Выровнивание: левую сторону float: left
+        ВЫровгнивание: правую сторону float: right;
+    */
+    }
+
+    .right {
+        float: right;
+
+        /*float оптекание. то есть выравнивание
+        Выровниваине: куда
+        Выровнивание: левую сторону float: left
+        ВЫровгнивание: правую сторону float: right;
+    */
+    }
+
+    .verhnee_menu {
+        background: #f7f7f7;
+        display: inline-block;
+        width: 100%;
+    }
+
+
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+        /*margin внешний отступ
+        так же margin является выровнивание
+        margin: 0 auto выровнивает по центру */
+    }
+
+
+
+    .ul_li li {
+        list-style: none;
+    }
+
+    .ul_li,
+    ul {
+        list-style: none;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    a {
+        text-decoration: none
+    }
+
+    .ul_li li {
+        padding: 10px 15px;
+    }
+
+
+    .m-l-10 {
+        margin-left: 10px;
+    }
+
+    /*Конец универсальных стил*/
+
+
+
+
+    /* Стили для страницы*/
+
+
+
+    /* Укрок 14*/
+
+
+    /* Конец стилей*/
+
+
+    /*урок 15*/
+
+    .b-r li {
+        border-right: 1px solid #dcdcdc;
+    }
+
+    /*бордер границы*/
+
+    .b-r li:last-child {
+        border-right: none;
+    }
+
+    .verhnee_menu.ul_li i {
+        margin-right: 10px;
+    }
+
+
+    /*position*/
+
+
+    .icon_msg {
+        position: relative;
+    }
+
+    .msg {
+        position: absolute;
+        top: -7px;
+        right: 2px;
+        background: red;
+        width: 13px;
+        height: 13px;
+        text-align: center;
+        color: white;
+        font-size: 9px;
+        line-height: 1.5;
+        border-radius: 13px;
+    }
+
+
+    /*center menu*/
+
+    .center_menu ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .seryi-krug {
+        background: #f3f3f3;
+        width: 40px;
+        height: 40px;
+        widows: 40px;
+        display: block;
+        line-height: 2.5;
+        text-align: center;
+        border-radius: 20px;
+        color: #4c4b6c;
+    }
+
+    .red {
+        color: red;
+    }
+
+    .yellow {
+        color: orange;
+    }
+
+    .blue {
+        color: #71d4ff;
+    }
+
+    .bg_blue {
+        background: #216fe4;
+    }
+
+    .bg_red {
+        background: red;
+    }
+
+    .bg_orange {
+        background: rgb(237 193 36 / 65%);
+    }
+
+    .center_menu .right>p:first-child {
+        font-weight: bold;
+        color: #4d4b6d;
+
+    }
+
+    .center_menu .right>p {
+        color: #999999;
+    }
+
+    /*nijnee menu*/
+
+
+    .nijnee_menu {
+        display: inline-block;
+        width: 100%;
+        background: #f7f7f7;
+        position: relative;
+        top: 35px;
+    }
+
+    .dropdown_menu {
+        display: none;
+        position: absolute;
+        border: 1px solid rgb(182, 103, 103);
+        width: 200px;
+        top: 42px;
+
+
+    }
+
+    .hover_menu li:hover .dropdown_menu {
+        display: block;
+
+    }
+
+    .hover_menu li {
+        padding: 15px 50px 15px 10px;
+
+
+    }
+
+
+    /*Урок 17*/
+
+    main {
+        margin-top: 60px;
+    }
+
+    .block_title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid #646566;
+    }
+
+
+    #product {
+        padding: 0 15px;
+
+    }
+
+
+    .block_title h1 {
+        font-size: 36px;
+        margin: 0;
+        color: #4c4b6c;
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+
+
+
+    /*body block - product*/
+
+    .body_block {
+        margin-top: 20px;
+    }
+
+
+    .block_stars {
+        display: inline-block;
+    }
+
+    .list_product>.product {
+        float: left;
+    }
+
+    .block_stars>div {
+        float: left;
+    }
+
+    .btns li {
+        list-style: none;
+        display: inline-block;
+
+    }
+
+
+    /**product style*/
+
+    .product img {
+        width: 200px;
+        overflow: hidden;
+        object-fit: contain;
+    }
+
+    .body_product {
+        margin-top: 10px;
+    }
+
+    .product {
+        display: block;
+        min-height: 304px;
+    }
+
+    .stars>i:first-child {
+        margin-left: 0;
+    }
+
+    .stars i {
+        color: #e3bf0fd9;
+        font-size: 10px;
+        margin-left: -3px;
+    }
+
+    .stars {
+        margin-right: 6px;
+    }
+
+    .reviews {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .price span {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: #4c4b6c;
+    }
+
+    .body_product .title {
+        font-size: 16px;
+    }
+
+    .price del {
+        font-size: 15px;
+        color: #b4b3b9;
+        margin-left: 12px;
+        line-height: 2;
+    }
+
+    .btns li {
+        padding: 0 10px
+    }
+
+    .btns .ul_li {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .btns li:hover .seryi-krug {
+        background: #66ccff;
+        color: #f7fcfd;
+    }
+
+
+    .btns .seryi-krug {
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    .dnone {
+        display: none;
+    }
+
+
+    .price {
+        width: 100%;
+        margin-top: -4px;
+    }
+
+
+    .img {
+        position: relative;
+    }
+
+    .desk_img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #ffffff96;
+        width: 100%;
+        height: 100%;
+        border: 1px solid grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: .5s;
+        text-align: center;
+    }
+
+
+
+
+    .desk_img .title {
+        font-size: 17px;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-bottom: 2px;
+    }
+
+    .desc {
+        width: 90px;
+        text-align: center;
+    }
+
+    .product:hover .dnone {
+        display: block;
+    }
+
+    .product:hover .block_stars {
+        display: none;
+    }
+
+    .product:hover .desk_img {
+        opacity: 1;
+    }
+
+
+    .list_product {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .tool_tip {
+        position: absolute;
+        right: 0;
+        padding: 3px 7px;
+        color: white;
+        font-size: 13px;
+        right: -10px;
+        top: 4px;
+        border-radius: 4px;
+        z-index: 1;
+    }
+
+    /*урок 18*/
+
+    /*Banner*/
+
+    #banner {
+        width: 100%;
+
+    }
+
+    /*Footer*/
+
+    .btn_call a {
+        background: #66ccff;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 25px;
+    }
+
+    .btn_call {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .btn_call a:hover {
+        background: rgb(13, 97, 136);
+        /* transition: 5s; */
+        box-shadow: 0 0 25px 0px #66ccff;
+
+
+        cursor: pointer;
+    }
+
+    .f_li_hover li {
+        padding: 5px 0;
+        transition: .5s;
+    }
+
+    .f_li_hover li:hover {
+        margin-left: 15px;
+        font-weight: bold;
+
+    }
+
+
+    .f_ttl {
+        position: relative;
+    }
+
+    .f_ttl::before {
+        content: "";
+        width: 50px;
+        background: rgb(241, 233, 233);
+        border-radius: 18px;
+        margin-top: 45px;
+        height: 5px;
+        position: absolute;
+    }
+
+    footer .ul_li li {
+        padding: 2px;
+    }
+
+
+    /*urok 19 @media мобильная адаптация*/
+
+
+    @media (max-width : 1024px) {
+
+
+        .container {
+            width: auto;
+
+
+        }
+
+        .list_product {
+            flex-wrap: wrap;
+            justify-content: left;
+
+        }
+
+        .product {
+            margin-right: 34px;
+        }
+
+        .list_product>.product:nth-child(4n) {
+            margin-right: 0;
+        }
+
+
+        .center_menu,
+        .verhnee_menu p {
+            font-size: 12px;
+        }
+
+    }
+
+
+    @media (max-width: 812px) {
+
+        .verhnee_menu .right,
+        .center_menu .left {
+            display: none;
+        }
+
+        .m-l-10 {
+            margin-left: 0;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        .product {
+            margin-right: 30px;
+        }
+
+        .list_product>.product:nth-child(3n) {
+            margin-right: 0;
+        }
+
+        .list_product>.product:nth-child(4n) {
+            margin-right: 30px;
+        }
+
+        .f_ttl {
+            font-size: 14px;
+        }
+
+    }
+
+
+    @media (max-width: 480px) {
+
+        .verhnee_menu,
+        .center_menu p {
+            font-size: 10px;
+        }
+
+        .verhnee_menu .right {
+            float: none;
+        }
+
+        .center_menu img {
+            width: 80px;
+        }
+
+        .center_menu .ul_li>li:nth-child(2),
+        .center_menu .ul_li>li:nth-last-child(3),
+        .nijnee_menu .left {
+            display: none;
+        }
+
+        .list_product>.product:nth-child(4n) {
+            margin-right: 0;
+        }
+
+        .center_menu li {
+            padding-top: 0;
+        }
+
+        .nijnee_menu {
+            font-size: 12px;
+        }
+
+        .nijnee_menu .container>div,
+        .right img,
+        .product .img {
+            width: 100%;
+        }
+
+        .nijnee_menu .left>.right {
+            display: none;
+        }
+
+
+
+        .nijnee_menu form {
+            width: 200px;
+        }
+
+        .list_product {
+            justify-content: space-between'
+
+        }
+
+        .product img {
+            width: 65px;
+            padding-left: 10px;
+        }
+    }
+
+           
+        
