@@ -233,7 +233,7 @@
 
 // ДЗ-32
 
-//1)
+// 1)
 
 // const x = prompt("");
 
@@ -241,7 +241,7 @@
 
 // alert(num.toFixed(0.2));
 
-//2)
+// 2)
 
 // const x = prompt("");
 
@@ -299,7 +299,7 @@
 // alert(sum); 
 
 
-//ДЗ 38
+// //ДЗ 38
 
 // let res_input = prompt("Ведие ваш возраст:", "");
 // alert(parseInt(" 0xF", 16));
@@ -317,12 +317,15 @@
 // alert(parseInt(res_input ** 8)); 
 
 
-// ДЗ 42
+// ДЗ 42 удаляем кнопки
 
 let click = document.getElementById("btn1");
 let click2 = document.getElementById("btn2");
 let click3 = document.getElementById("btn3");
 let click4 = document.getElementById("btn4");
+let click5 = document.getElementById("btn4");
+
+
 
 
 
