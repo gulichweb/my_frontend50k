@@ -319,21 +319,38 @@
 
 // ДЗ 42
 
-let click = document.getElementById("btn1");
-let click2 = document.getElementById("btn2");
-let click3 = document.getElementById("btn3");
-let click4 = document.getElementById("btn4");
+// let click = document.getElementById("btn1");
+// let click2 = document.getElementById("btn2");
+// let click3 = document.getElementById("btn3");
+// let click4 = document.getElementById("btn4");
 
 
 
-function delet_elem(e) {
-  e.target.remove();
-}
+// function delet_elem(e) {
+//   e.target.remove();
+// }
 
- click.addEventListener('click', delet_elem);
+//  click.addEventListener('click', delet_elem);
 
- click2.addEventListener('click', delet_elem);
+//  click2.addEventListener('click', delet_elem);
 
- click3.addEventListener('click', delet_elem);
+//  click3.addEventListener('click', delet_elem);
 
- click4.addEventListener('click', delet_elem);
+//  click4.addEventListener('click', delet_elem);
+
+
+// ДЗ-43
+
+var count = 0;
+
+	             
+var colorArray = [ "#ffc107", "#fff", "#91b9dd45" ]; // массив с цветами
+var i = 0; // итератор
+
+function changeColor(){
+    document.body.style.background = colorArray[i]; 
+    i++;
+    if( i > colorArray.length - 1){
+        i = 0;
+    }
+};
