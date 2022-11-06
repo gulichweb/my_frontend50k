@@ -1,0 +1,429 @@
+
+// "Use strict";
+
+// let object = {
+//     name: "Zac",
+//     surname: "Miken",
+//     age: 25,
+//     date: 2020,
+//     city: "Bishkek",
+//     work: "programmer"
+
+// };
+
+// console.log(" Name: " + object.name +  " Surname: " + object.surname + " Age: " + object.age + " Date: " +  object.date + " city: " + object.city + " Work: " + object.work);
+
+
+
+// /*массивы */
+
+// let animals = ["Тигр", "Волк", "Слон", "Пантера", "Кенгуру"];
+// console.log(animals[2]);
+
+
+// /*переборы */
+
+// let arr = ["Телефон", "Ноутбук", "Музыка", "Уроки"];
+// console.log(arr.length);
+
+
+// /*перебираемый объект */
+
+
+// for (let char of "1 2 3 4" ) {
+
+// console.log( char );
+
+// }
+
+// /*ДЗ 25 */
+
+
+// /* 1) */
+
+// var person = prompt('Введите имя:', '');
+
+// alert('Ваше имя: ' + person + '');
+
+// var person = prompt('Введите Фамилию:', '');
+
+// alert('Ваше фамилия: ' + person + '');
+
+
+
+// /* 2) */
+
+
+// var number =  prompt('ведите два числа:', '' );
+
+// alert (number + number );
+
+
+// /* 3)* */
+
+
+
+// var sum = prompt('Ведите два числа:', '');
+
+// alert(sum * sum);
+
+
+// список картинок
+
+
+//     let src = document.querySelectorAll(".product > .img");
+// console.log(src[0]);
+// console.log(src[1]);
+// console.log(src[2]);
+// console.log(src[3]);
+// console.log(src[4]);
+
+// заголовки
+
+// var elements = document.getElementsByClassName("add_cart");
+
+// var myFunction = function() {
+//     var attribute = this.parentNode.parentNode.parentNode.querySelectorAll(".title");
+//     alert(attribute[0].innerText);
+// };
+
+// for (var i = 0; i < elements.length; i++) {
+//     elements[i].addEventListener('click', myFunction, false);
+// }
+    
+
+// цена
+// var elements = document.getElementsByClassName("picture");
+
+// var myFunction = function() {
+//     var attribute = this.parentNode.parentNode.querySelectorAll("del");
+//     alert(attribute[0].innerText);
+// };
+
+// for (var i = 0; i < elements.length; i++) {
+//     elements[i].addEventListener('click', myFunction, false);
+// }
+
+// // цена
+
+// var elements = document.getElementsByClassName("card");
+
+// var myFunction = function() {
+//     var attribute = this.parentNode.parentNode.parentNode.querySelectorAll("del");
+//     alert(attribute[0].innerText);
+// };
+
+// for (var i = 0; i < elements.length; i++) {
+//     elements[i].addEventListener('click', myFunction, false);
+// }
+
+
+// // цена картинки
+// var elements = document.getElementsByClassName("desc");
+
+// var myFunction = function() {
+//     var attribute = this.parentNode.parentNode.parentNode.parentNode.getElementsByClassName("price");
+//     alert(attribute[0].innerText);
+// };
+
+// for (var i = 0; i < elements.length; i++) {
+//     elements[i].addEventListener('click', myFunction, false);
+// }
+
+// описание
+
+// var elements = document.getElementsByClassName("tool_tip");
+
+// var myFunction = function() {
+//     var attribute = this.parentNode.parentNode.parentNode.parentNode.getElementsByClassName("reviews");
+//     alert(attribute[0].innerText);
+// };
+
+// for (var i = 0; i < elements.length; i++) {
+//     elements[i].addEventListener('click', myFunction, false);
+// }
+
+//Пример просто
+
+// function BigUser() {
+
+//     this.name = "John";
+  
+//     return { name: "Godzilla" };  // <-- возвращает этот объект
+//   }
+  
+//   alert( new BigUser().name );  // Godzilla, получили этот объект
+
+// var square = function(number) { return number * number; };
+// var x = square(4); // x получает значение 16
+
+// console.log(x);
+
+// ДЗ-31
+
+// 1) вычисления длина и окружности
+
+// const r = +prompt('Введите число');
+// const circleLength = 2 * Math.PI * r;
+// console.log(Math.round(circleLength));
+
+// const circleSquare = Math.PI * Math.pow(r, 2);
+
+//    alert(Math.round(circleSquare));
+
+
+//    let n = 2;
+// n += 5; // теперь n = 7 (работает как n = n + 5)
+// n *= 2; // теперь n = 14 (работает как n = n * 2)
+
+// alert( n ); // 14
+
+
+
+// 2)  min a,b
+
+// var a = 1, b = 3;
+// var z = Math.min(a, b);
+
+// alert(z);
+
+
+// 1) возвдение в степень
+
+
+// let a = prompt('Введи число')
+// let c = prompt('Введи степень')
+// let f
+ 
+ 
+ 
+// for (let i = 0; i < 1; i++) {
+//     f = a ** c
+ 
+//     document.write('Выводить:' + f);
+// }
+
+// alert(f);
+
+
+// // 1) вычисления длина и окружности
+
+// const r = +prompt('Введите число');
+// const circleLength = 2 * Math.PI * r;
+// console.log(Math.round(circleLength));
+
+// const circleSquare = Math.PI * Math.pow(r, 2);
+
+//    alert(Math.round(circleSquare));
+
+//2) треугольник
+
+// var a=prompt("введи те число a");
+// var b=prompt("введите число b");
+
+// function ab(a,b){
+// if(a!=''&&b!='')
+// return a*b;
+// else if(a!=''&&b=='')
+// return a*a;
+// else if(a==''&&b!='')
+// return b*b; }
+
+// alert(ab(a,b));
+
+// ДЗ-32
+
+//1)
+
+// const x = prompt("");
+
+// const num = x * 2 ;
+
+// alert(num.toFixed(0.2));
+
+//2)
+
+// const x = prompt("");
+
+// const num = x * 2 ;
+
+// alert(num.toFixed(0.3));
+
+
+
+
+//  const name =  prompt('Как вас зовут?');
+   
+//     function checkAge(age) {
+//         if (age > 18) {
+//           return true;
+//         } else {
+//           // ...
+//           return confirm('Родители разрешили?');
+//         }
+//       };
+    
+// alert (age);
+
+// function sumSalaries(salaries) {
+
+//   let sum = 0;
+//   for (let salary of Object.values(salaries)) {
+//     sum += salary;
+//   }
+
+//   return sum; 
+// }
+
+
+
+// let salaries = {
+//   "almaz": 1200,
+//   "Bonus": 400
+// };
+
+// alert(sumSalaries(salaries));
+
+// let salaries = {
+//     "almaz": 1200,
+//     "Bonus": 400,
+//   };
+ 
+ 
+
+// let sum = 0;
+// for (let key in salaries) {
+//   sum += salaries[key];
+// }
+
+// alert(sum); 
+
+
+//ДЗ 38
+
+// let res_input = prompt("Ведие ваш возраст:", "");
+// alert(parseInt(" 0xF", 16));
+
+// let res_input = prompt("Ведие число:", "");
+// alert(parseInt(" F", 16));
+
+// let res_input = prompt("Ведие число:", "");
+// alert(String(" D", 16));
+
+
+
+// let res_input = prompt("Ведие число:", "");
+
+// alert(parseInt(res_input ** 8)); 
+
+
+// ДЗ 42
+
+// let click = document.getElementById("btn1");
+// let click2 = document.getElementById("btn2");
+// let click3 = document.getElementById("btn3");
+// let click4 = document.getElementById("btn4");
+
+
+
+// function delet_elem(e) {
+//   e.target.remove();
+// }
+
+//  click.addEventListener('click', delet_elem);
+
+//  click2.addEventListener('click', delet_elem);
+
+//  click3.addEventListener('click', delet_elem);
+
+//  click4.addEventListener('click', delet_elem);
+
+
+// ДЗ-43
+
+// var count = 0;
+
+	             
+// var colorArray = [ "#ffc107", "#fff", "#91b9dd45" ]; // массив с цветами
+// var i = 0; // итератор
+
+// function changeColor(){
+//     document.body.style.background = colorArray[i]; 
+//     i++;
+//     if( i > colorArray.length - 1){
+//         i = 0;
+//     }
+// };
+
+
+
+
+// const click = document.querySelector("#btn2");
+
+
+// click.addEventListener('click', function(){
+//    this.style.background = "red";
+
+// });
+
+// 44
+
+// const click = document.querySelector("body");
+
+
+// click.addEventListener('click', function(){
+//    this.style.background = "#ffc107";
+
+
+// });
+
+
+
+// 45
+
+(function (){
+   'use strict';
+
+
+class User{
+   constructor(yer, course){
+      this.yer = yer;
+      this.course = course;
+   }
+
+   calcUser(){
+      return this.yer - this.course;
+   }
+
+}
+
+const full_yer = new User (5, 3);
+
+console.log(full_yer.calcUser());
+
+
+
+class UserText extends User{
+   constructor(yer, course, name, surname){
+      super(yer, course);
+
+      this.name = name;
+      this.surname = surname;
+   }
+
+   getCourse(){
+      console.log(`yer: ${this.yer} | course: ${this.course}`); 
+   }
+
+   getFullName(){
+      console.log(`name: ${this.name} | surname: ${this.surname}`); 
+   } 
+}
+
+const student = new UserText(5, 3, " Азамат", "Ибраев");
+
+student.getFullName();
+student.getCourse();
+
+console.log(student.calcUser);
+}());
