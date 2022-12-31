@@ -1,0 +1,48 @@
+
+{
+    "product": [
+        {
+            "img": "/img/product/img63.jpg",
+            "title": "Animal Print Sweatshirt 1",
+            "tooltips": "-%30",           
+            "originPrice": "14.47",
+            "oldPrice": "$ 29.41"
+        },
+        {
+            "img": "/img/product/img50.jpg",
+            "title": "Animal Print Sweatshirt 1",
+            "tooltips": "NEW",           
+            "originPrice": "14.47",
+            "oldPrice": "$ 29.41"
+            
+        },
+        {
+                                    
+            "img": "/img/product/img61.jpg",
+            "title": "Animal Print Sweatshirt 1",
+            "tooltips": "SALE",           
+            "originPrice": "14.47",
+            "oldPrice": "$ 29.41"
+        },
+        {
+
+            "img": "/img/product/img63.jpg",
+            "title": "Animal Print Sweatshirt 1",
+            "tooltips": "NEW",           
+            "originPrice": "14.47",
+            "oldPrice": "$ 29.41"
+        },
+        {
+
+            "img": "/img/product/img50.jpg",
+            "title": "Animal Print Sweatshirt 1",
+            "tooltips": "-%29",           
+            "originPrice": "14.47",
+            "oldPrice": "$ 29.41"
+        }
+                                                                                                
+    ],
+    "request": [
+
+    ]
+}
